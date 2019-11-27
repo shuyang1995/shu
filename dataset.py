@@ -7,6 +7,7 @@ import torch
 import torch.utils.data as data
 from transforms import color_aug
 
+#just for exercise
 
 class FoodDataSet(data.Dataset):
     def __init__(self, data_root, img_list, transform, is_train):
